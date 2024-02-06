@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specfied\" && exit 1",
-    "start": "yarn ts-node src/server.ts"
+    "start": "ts-node src/server.ts"
   },
   "author": "andri alpian",
   "license": "MIT",
