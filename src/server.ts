@@ -8,7 +8,7 @@ const PORT = 3000;
 
 // setup bot telegram
 const botToken = '6364340921:AAHPBgdek2E5_qO_Bl_cmRnO0mlVyOX6Eak'
-const chatIds = ['5439991685', '5243622036', '6949185570']
+const chatIds = ['5439991685', '5243622036', '6949185570', '320063452']
 const bot = new TelegramBot(botToken, {polling: false})
 
 app.use(bodyParser.json())
